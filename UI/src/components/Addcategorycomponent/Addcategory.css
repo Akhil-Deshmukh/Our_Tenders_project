@@ -1,0 +1,13 @@
+
+#main
+{
+  min-height:350px;
+  width:1050px;
+}
+.cpart
+{
+    height:150px;
+    width:150px;
+    margin:20px;
+    float:left
+}

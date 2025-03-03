@@ -1,0 +1,69 @@
+/* Background and Carousel */
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+  
+  .carousel-caption h1 {
+    font-size: 3rem;
+    animation: fadeInDown 1s;
+  }
+  
+  .carousel-caption p {
+    animation: fadeInUp 1s;
+  }
+  
+  /* Tender Section */
+  .tender-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .tender-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .tender-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .tender-card {
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background: white;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tender-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tender-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .tender-card h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    color: #333;
+  }
+  
+  .tender-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 15px 15px;
+  }
+  
